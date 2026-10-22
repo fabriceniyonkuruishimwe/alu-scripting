@@ -20,4 +20,4 @@ def top_ten(subreddit):
     except requests.RequestException:
         pass
 
-    print("OK")
+    print("OK", end="")
